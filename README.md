@@ -21,6 +21,8 @@ Framework Structure-
 	5. Configuration - Driver initialization, before and after hooks are defined in the Hooks folder
 	6. AppConfig - It has all the environments configuration, testdata and connection string. I have used Slow Cheetah extension to have 
 	different appSettings for debug, Test, SIT, PreProd and release.
+	WebdriverManager class downloads the appropriate driver binaries and there latest version if not already specified, allow to manage 
+	different drivers.
 
 Nuget Packages installed
 ![image](https://user-images.githubusercontent.com/125847607/220032418-0c3675b7-c0ee-4b10-ada8-b8307e039fac.png)
